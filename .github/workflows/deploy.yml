@@ -23,7 +23,7 @@ jobs:
       - name: Upload Lab1 folder as artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: fe-basics/lab1
+          path: fe-base/lab1
 
   deploy:
     environment:
